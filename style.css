@@ -43,13 +43,15 @@
     background:none !important;
     display: none;}
 
-.audio_cover{
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+.audio_cover{   
+	filter: grayscale(100%);
+	filter: url(#greyscale);   
+    transition: filter 0.5s;
 }
 
-.audio_cover:hover{
-  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(0%);
-  transition: filter 0.5s;
+.audio_cover:hover{   
+	filter: grayscale(0%);
+	filter: none;
+    transition: filter 0.5s;
+    cursor: pointer;
 }
