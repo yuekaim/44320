@@ -10,8 +10,9 @@
   background-color: rgb(255,255,255); /* Black fallback color */
   
   overflow-x: scroll; 
-  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  transition: 1.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
+
 
 
 /* Position the close button (top right corner) */
