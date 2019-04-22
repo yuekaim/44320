@@ -1,6 +1,5 @@
 html, body { margin:0; padding:0; overflow:scroll; }
 
-
 /* The Overlay (background) */
 .overlay {
   /* Height & width depends on how you want to reveal the overlay (see JS below) */    
